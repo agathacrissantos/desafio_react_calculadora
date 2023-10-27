@@ -1,4 +1,16 @@
-# React + Vite
+# Desafio Vai na Web
+### Calculadora simples feita com React
+
+####
+
+# O que foi utilizado:
+### React JS
+### Componentização
+### Styled-components
+
+####
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
