@@ -1,1 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+@media screen and(min-width:500px) {
+    .Principal {
+        background-color: aqua;
+    }
+
+    .Titulo {
+        background-color: #FFFFFF;
+        color: black;
+        font-size: 12px;
+    }
+}
