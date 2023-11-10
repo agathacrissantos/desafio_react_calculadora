@@ -7,6 +7,7 @@
 ### React JS
 ### Componentização
 ### Styled-components
+### Responsividade
 
 ####
 
