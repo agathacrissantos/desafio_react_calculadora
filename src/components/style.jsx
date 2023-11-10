@@ -26,7 +26,10 @@ justify-content: center;
 `
 export const Entradas = styled.div`
 width: 15vw;
-height: 10vh;   
+height: 10vh; 
+@media (max-width:500px){
+    width:20vw;
+}  
 `
 export const CaixaUm = styled.input`
 width: 15vw;
@@ -46,6 +49,9 @@ border-radius; 10px;
 display: flex;
 align-items: center;
 justify-content: space-evenly;
+@media (max-width:500px){
+    width:25vw;
+}  
 `
 
 export const PrimeiroBotao = styled.div`
@@ -56,6 +62,9 @@ height: 15vh;
 display: flex;
 align-items: center;
 justify-content: space-around;
+@media (max-width:500px){
+    width:30vw;
+}  
 `
 export const SegundoBotao = styled.div`
 backgroun-color: #f444444;
@@ -65,25 +74,44 @@ height: 15vh;
 display: flex;
 align-items: center;
 justify-content: space-around;
+@media (max-width:500px){
+    width:30vw;
+}  
 `
 
 export const BotaoSoma = styled.button`
 width: 8vw;
 height: 10vh;
+@media (max-width:500px){
+    width:10vw;
+    height:12vh;
+}  
 `
 export const BotaoSubtracao = styled.button`
 width: 8vw;
 height: 10vh;
+@media (max-width:500px){
+    width:10vw;
+    height:12vh;
+}  
 `
 
 export const BotaoDivisao = styled.button`
 width: 8vw;
 height: 10vh;
+@media (max-width:500px){
+    width:10vw;
+    height:12vh;
+}  
 `
 
 export const BotaoMultiplicacao = styled.button`
 width: 8vw;
 height: 10vh;
+@media (max-width:500px){
+    width:10vw;
+    height:12vh;
+}  
 `
 
 export const BotaoClear = styled.button`
